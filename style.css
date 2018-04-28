@@ -1,0 +1,40 @@
+body{
+	background-image: url(banniere.png);
+	margin:0;
+}
+#info {
+	color: white;
+	text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+	font-size: 140%;
+	text-align: center;
+	position: absolute;
+	top: 35px;
+	left: 22px;
+}
+#live{
+	color: white;
+	text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+	font-size: 140%;
+	text-align: center;
+	position: absolute;
+	top: 85px;
+	left: 78px;
+	background-color: black;
+	border-radius: 10px;
+	width: 50%;
+}
+#txt{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+#yt {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+#twitter{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+}
