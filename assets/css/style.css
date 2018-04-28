@@ -1,0 +1,81 @@
+*, *:hover{
+    -webkit-transition: color .2s!important;
+    transition: color .2s!important;
+    -webkit-transition: background-color .2s!important;
+    transition: background-color .2s!important;
+    -webkit-transition: fill .2s!important;
+    transition: fill .2s!important;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url('../fonts/bebas_neue.otf');
+}
+
+@font-face {
+    font-family: "Steelfish";
+    src: url('../fonts/steelfish.ttf');
+}
+
+body{
+	margin:0;
+}
+
+
+p{
+    color: #333;
+    font-size: 140%;
+    font-family: "BebasNeue", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#button{
+    font-family: "Steelfish", sans-serif;
+    font-size: 1.3em;
+    border: #333333;
+    border-style: solid;
+    border-size: 3px;
+    border-radius: 3px;
+    padding:0.2em;
+    background-color: #4D3758;
+    color: white;
+ }
+
+#button:hover{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: #4D3758;
+}
+
+a:hover{
+    color:black;
+}
+
+#logo{
+    padding:1em;
+}
+
+#logo svg{
+    width: 100%;
+
+}
+
+#logo:hover svg path{
+    fill: black;
+}
+
+#info {
+    height:100%;
+    display: inline-block;
+}
+
+.links{
+    font-size: 4em;
+}
+
+
+
