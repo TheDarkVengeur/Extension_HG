@@ -9,6 +9,11 @@
 	"icons":{
 		"64":"assets/images/logo.png"
 	},
+	"permissions":[
+		"http://*/*",
+		"https://*/*",
+		"notifications"
+	],
 	"background":{
 		"scripts":["assets/js/jquery.js","assets/js/background.js"]
 	}

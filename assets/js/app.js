@@ -8,8 +8,8 @@ xhr.onreadystatechange = function(){
         }
         else{
             $("#toUpdate").html("La WebTv est actuellement en Live ! <i class=\"far fa-smile\"></i>");
-
         }
     }
 };
 xhr.send();
+
