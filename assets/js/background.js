@@ -20,14 +20,6 @@ function checkStream(){
                     notificated = true;
                 }
             }
-            if(chrome.browserAction.getIcon() === "\"assets/images/logo.png\""){
-                var title = "WebTv Hexa Gaming";
-                var message = "La WebTv d'Hexa Gaming est en Live !";
-                chrome.notifications.create('Notif', {type: "basic", title: title, message: message, iconUrl: "./assets/images/logo.png"}, function(id) {});
-                chrome.notifications.onClicked.addListener(function(id) {
-                    chrome.tabs.create({url: 'https://www.twitch.tv/hexagamingtv1%27%7D'});
-                    });
-            }
         }
     };
     xhr.send();
@@ -35,8 +27,8 @@ function checkStream(){
 
 // Création de la notification
 function notification(){
-    var title = "WebTv Hexa Gaming";
-    var message = "La WebTv d'Hexa Gaming est en Live !";
+    var title = "WebTV Hexa Gaming";
+    var message = "La WebTV d'Hexa Gaming est en ligne !";
     chrome.notifications.create('Notif', {type: "basic", title: title, message: message, iconUrl: "./assets/images/logo.png"}, function(id) {});
     chrome.notifications.onClicked.addListener(function(id) {
         chrome.tabs.create({url: 'https://www.twitch.tv/hexagamingtv1'});
