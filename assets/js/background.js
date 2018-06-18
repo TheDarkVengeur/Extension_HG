@@ -1,7 +1,7 @@
 var notificated = false;
 setInterval(function(){
     checkStream();
-}, 1000);
+}, 10000);
 
 function checkStream(){
     var xhr = new XMLHttpRequest();
